@@ -1,0 +1,4 @@
+# Ignore media
+media
+__pycache__
+Vectors/__pycache__
