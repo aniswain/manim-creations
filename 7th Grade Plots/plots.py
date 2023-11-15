@@ -76,7 +76,7 @@ class LinearPlots(Scene):
         color_list = [RED_D, RED_B, RED_C, BLUE, GREEN, PURPLE]
         for i, func in enumerate(func_list):
             if i == 3:
-                self.wait(2)
+                self.wait(1)
                 self.remove(*previous_pts[1:])
                 self.remove(*previous_plots[1:])
             points = points_lines(func, numberplane=numberplane, x_range=numberplane.x_range, step=20)
